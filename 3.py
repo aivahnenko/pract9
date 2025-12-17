@@ -1,10 +1,15 @@
 price = int(input('Сколько надо заплатить: '))
-monety = [25, 10, 5, 1]
 vsego = 0
-i = 0
-while price > 0:
-    m = monety[i]
-    vsego += price // m
-    price = price % m
-    i += 1
+
+vsego += price // 25
+price = price % 25
+
+vsego += price // 10
+price = price % 10
+
+vsego += price // 5
+price = price % 5
+
+vsego += price // 1
+
 print('Нужно монет:', vsego)
