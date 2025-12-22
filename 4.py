@@ -1,4 +1,3 @@
-```python
 number = int(input('Введите натуральное число '))
 original = number
 last_digit = original % 10
@@ -30,4 +29,5 @@ print(f'Количество четных цифр: {count_even}')
 print(f'Сумма цифр больше 5: {sum_over5}')
 print(f'Произведение цифр больше 7: {product_over7}')
 print(f'Количество цифр 0 и 5: {count_0_5}')
-```
+
+
