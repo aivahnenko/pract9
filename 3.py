@@ -1,4 +1,4 @@
-price = int(input('Сколько надо заплатить: '))
+price = int(input('Сколько надо заплатить '))
 vsego = 0
 
 vsego += price // 25
@@ -12,4 +12,5 @@ price = price % 5
 
 vsego += price // 1
 
-print('Нужно монет:', vsego)
+print(f'Нужно монет {vsego}')
+
