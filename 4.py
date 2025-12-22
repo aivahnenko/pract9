@@ -1,4 +1,4 @@
-number = int(input("Введите натуральное число: "))
+number = int(input('Введите натуральное число '))
 original = number
 last_digit = original % 10
 
@@ -32,9 +32,10 @@ while original > 0:
 if count_over7 == 0:
     product_over7 = 0
 
-print(f"Количество цифр 3: {count_3}")
-print(f"Количество последних цифр: {count_last}")
-print(f"Количество четных цифр: {count_even}")
-print(f"Сумма цифр больше 5: {sum_over5}")
-print(f"Произведение цифр больше 7: {product_over7}")
-print(f"Количество цифр 0 и 5: {count_0_5}")
+print(f'Количество цифр 3 {count_3}')
+print(f'Количество последних цифр {count_last}')
+print(f'Количество четных цифр {count_even}')
+print(f'Сумма цифр больше 5 {sum_over5}')
+print(f'Произведение цифр больше 7 {product_over7}')
+print(f'Количество цифр 0 и 5 {count_0_5}')
+
